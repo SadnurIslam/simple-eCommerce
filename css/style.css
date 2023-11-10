@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+a.nav-link {
+    color: #000;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+a.nav-link:hover {
+    opacity: 0.9;
+    color: #000;
+}
+
+
+a.nav-link.active {
+    opacity: 0.9;
+}
+
+button.navbar-toggler {
+    border: 1px solid #d6d3d3;
+}
+
+i.fa-solid.fa-bars {
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 2px;
+}
+
+.bg-given1{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+section{
+    margin: 100px 0;
+}
+
+.featured-price{
+    color: #FF136F;
+}
+
+.btn{
+    background-color: #FF3C89;
+    color: #fff;
+    padding: 8px 22px;
+    background: rgb(255,72,145);
+    background: linear-gradient(90deg, rgba(255,72,145,1) 0%, rgba(255,60,137,1) 35%, rgba(255,28,116,1) 100%);
+    border-radius: 8px;
+}
+
+i.fa-solid.fa-angle-right.fa-2xs {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: -1px 0px black;
+}
+
+.single-item{
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.watch{
+    background-color: #FFA500;
+}
+
+.bag{
+    background-color: #DA70D6;
+}
+
+.featured-items img{
+    width: 100px;
+}
+
+
+
+.shoes-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.card{
+    width: 32%;
+    border: none;
+    box-shadow: 3px 3px 15px lightgray;
+    padding: 5px 5px;
+}
+
+.card-body{
+    vertical-align: bottom;
+}
+
+.card-footer{
+    background-color: #fff;
+    border: none;
+}
+
+.subscribe{
+    padding: 110px 0;
+}
+
+.subscribe p{
+    margin-bottom: 12px;
+}
+
+.sub-container{
+    width: 322px;
+    margin: auto;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 0 15px;
+}
+
+input[type="text"]:focus{
+    outline: 2px solid rgba(128, 128, 128, 0.411);
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .single-item{
+        color: #fff;
+        border-radius: 8px;
+        padding: 2px 5px;
+    }
+}
